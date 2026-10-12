@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	var a string
+	var a int
 	fmt.Scan(&a)
-	fmt.Println(string(a[len(a)-1]))
+	fmt.Println(a % 10)
 }
